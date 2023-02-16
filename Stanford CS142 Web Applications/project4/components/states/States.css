@@ -1,0 +1,32 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+
+.states {
+    font-family: Impact, monospace;
+    text-align: center;
+}
+
+#input1 {
+    font-family: Consolas, monospace;
+    font-size: 20px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    font-size: 25px;
+}
+
+.result div:nth-child(even){
+    background-color: paleturquoise;
+}
+
+.result div:nth-child(odd){
+    background-color: palevioletred; 
+}

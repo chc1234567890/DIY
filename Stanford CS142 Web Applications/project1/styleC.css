@@ -1,0 +1,11 @@
+div:last-child {
+    font-size: 5px;
+    animation: myanimation 3s infinite;
+    transition: background-color 2s;
+}
+@keyframes myanimation{
+    50% {font-size: 100px;}
+}
+div:hover{
+    background-color: violet;
+}

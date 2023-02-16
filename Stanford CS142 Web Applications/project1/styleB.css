@@ -1,0 +1,29 @@
+body {
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+}
+
+div {
+    height: 130px;
+    width: 80px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    padding: 10px;
+}
+
+div:hover{
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+div:not(div:last-child){
+    margin-right: 10px;
+}
+
+div:last-child {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
